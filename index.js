@@ -18,7 +18,7 @@ const sortAscending = (names) => {
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = (names) => {
-  return names.reverse();
+  return names.sort().reverse();
 };
 // ! JANGAN DIMODIFIKASI
 (function main() {
