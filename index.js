@@ -12,16 +12,13 @@ const sorter = (names, sort) => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (nameSort) => {
-  const finalNames = nameSort.sort();
-  return finalNames;
+const sortAscending = (names) => {
+  return names.sort();
 };
-
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (nameSort) => {
-  const finalNames = sortAscending(nameSort);
-  return finalNames.reverse();
+const sortDescending = (names) => {
+  return names.reverse();
 };
 // ! JANGAN DIMODIFIKASI
 (function main() {
